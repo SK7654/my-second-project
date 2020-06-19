@@ -31,10 +31,14 @@ Moving furthur into various jobs of the jenkins. I've created a jenkins pipeline
 JOB 1 : Pulls the code from github and copies it in the folder named code in the /var folder of the base container named "jen1" in my case. Ive used a remote URL trigger to trigger the job as soon as the code is launched to github by placing it in the post-commit actions of the git.
 
 ![2 1](https://user-images.githubusercontent.com/64473684/85108833-062be080-b22e-11ea-8eb2-9225f07566ec.PNG)
-![11](https://user-images.githubusercontent.com/64473684/85108848-0d52ee80-b22e-11ea-874a-ca8cdc2389d0.PNG)
 ![13](https://user-images.githubusercontent.com/64473684/85108902-20fe5500-b22e-11ea-89ae-9df9ec7c307d.PNG)
+![11](https://user-images.githubusercontent.com/64473684/85108848-0d52ee80-b22e-11ea-874a-ca8cdc2389d0.PNG)
 
 JOB 2 : This job triggers as soon as the JOB1 is built successfully and this job checks the code and respectively launches the respective interpreter, copies the code to that interpreter container and deploys the code to the webserver.
+![14](https://user-images.githubusercontent.com/64473684/85109758-771fc800-b22f-11ea-935e-a274b11729db.PNG)
+
+JOB3 : This JOB simultaneously triggers after the successful build of the job2 and this job checks the "http code" of the webserver i.e., this job ensure if the code is working properly on the wenserver if it has any error it sends a mail to the developer to recheck the code.
+
 
 
 
