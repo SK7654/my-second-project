@@ -35,6 +35,7 @@ JOB 1 : Pulls the code from github and copies it in the folder named code in the
 ![11](https://user-images.githubusercontent.com/64473684/85108848-0d52ee80-b22e-11ea-874a-ca8cdc2389d0.PNG)
 
 JOB 2 : This job triggers as soon as the JOB1 is built successfully and this job checks the code and respectively launches the respective interpreter, copies the code to that interpreter container and deploys the code to the webserver.
+
 ![14](https://user-images.githubusercontent.com/64473684/85109758-771fc800-b22f-11ea-935e-a274b11729db.PNG)
 
 JOB3 : This JOB simultaneously triggers after the successful build of the job2 and this job checks the "http code" of the webserver i.e., this job ensure if the code is working properly on the wenserver if it has any error it sends a mail to the developer to recheck the code.
