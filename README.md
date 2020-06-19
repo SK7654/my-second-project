@@ -53,7 +53,8 @@ With all the jobs successfully run and no errors in the code , the port 80 of my
 
 Using the build pipeline plugin I've created a project overview of the jobs so that it would be easy to manage the jobs which looks like :
 
-![27](https://user-images.githubusercontent.com/64473684/85118023-58283280-b23d-11ea-9c73-0880c6fe2771.PNG)
+![WhatsApp Image 2020-06-19 at 3 07 54 PM](https://user-images.githubusercontent.com/64473684/85121616-b60b4900-b242-11ea-8d88-aa020a54dbaa.jpeg)
+
 
 
 
