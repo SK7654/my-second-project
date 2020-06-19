@@ -41,7 +41,7 @@ JOB 2 : This job triggers as soon as the JOB1 is built successfully and this job
 JOB3 : This JOB simultaneously triggers after the successful build of the job2 and this job checks the "http code" of the webserver i.e., this job ensure if the code is working properly on the wenserver if it has any error it sends a mail to the developer to recheck the code.
 
 ![15](https://user-images.githubusercontent.com/64473684/85111952-a421aa00-b232-11ea-98e7-c39cd104239d.PNG)
-![16](https://user-images.githubusercontent.com/64473684/85111978-a84dc780-b232-11ea-830b-95a85f0de27d.PNG)
+![16](https://user-images.githubusercontent.com/64473684/85118603-2d8aa980-b23e-11ea-9f5d-07fa74284a41.PNG)
 
 JOB4 : After all the above mentioned jobs are run successfully then this job triggers and keeps on checking whether the interpreter container is running and if in case the container stops it starts the container again. Finally it acts as a monitoring job to monitor the interpreter container.
 ![21](https://user-images.githubusercontent.com/64473684/85116602-33cb5680-b23b-11ea-9b54-c9bd75b9d797.PNG)
