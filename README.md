@@ -10,3 +10,8 @@ Going deep dive into the project :
 
 Creation of Dockerfile: Using the dockefile concept I've built an images that has git and jenkins pre installed and starts the jenkins services as soon as the container is lauched using that image. I've pre-installed git to support the github plugin in the jenkins services.
 ![1](https://user-images.githubusercontent.com/64473684/85101740-c0b4e680-b220-11ea-8d6f-abc29eba6508.PNG)
+Now build the image and push it to the docker hub using the following commands
+ 
+Launching the container: With the docker image created , it is now up to make the docker commands run inside the container launched by using the above image created so that Jenkins can directly launch the required containers. For this I've directly mounted the "docker.sock file" on to the container and the docker config files on to the container to make the docker commadns executable. Also expose the container on the port 8080 to access the WebUI of the Jenkins.
+
+Jenkins running on the port number 8080, initially enter the jenkins using the initial admin password provided by jenkins at the location /root/.jenkins/secrets/initialAdminPassword. With jenkins properly functioning install the GITHUB plugin adn the build pipeline plugin.
