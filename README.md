@@ -45,7 +45,13 @@ JOB3 : This JOB simultaneously triggers after the successful build of the job2 a
 
 JOB4 : After all the above mentioned jobs are run successfully then this job triggers and keeps on checking whether the interpreter container is running and if in case the container stops it starts the container again. Finally it acts as a monitoring job to monitor the interpreter container.
 ![21](https://user-images.githubusercontent.com/64473684/85113603-2c08b380-b235-11ea-9587-86e8726669c8.PNG)
+
 With all the jobs successfully run and no errors in the code , the port 80 of my apache webserver shows this output which is the php code in my github:
+
+![23](https://user-images.githubusercontent.com/64473684/85114722-0c26bf00-b238-11ea-8738-a21f2e006c30.PNG)
+
+Using the build pipeline plugin I've created a project overview of the jobs so that it would be easy to manage the jobs which looks like :
+
 
 
 
