@@ -9,3 +9,4 @@ Wholelly the task goes as : I've created an image of the docker , when launched 
 Going deep dive into the project :
 
 Creation of Dockerfile: Using the dockefile concept I've built an images that has git and jenkins pre installed and starts the jenkins services as soon as the container is lauched using that image. I've pre-installed git to support the github plugin in the jenkins services.
+![1](https://user-images.githubusercontent.com/64473684/85101740-c0b4e680-b220-11ea-8d6f-abc29eba6508.PNG)
