@@ -17,3 +17,13 @@ Launching the container: With the docker image created , it is now up to make th
 ![8](https://user-images.githubusercontent.com/64473684/85103379-2bb3ec80-b224-11ea-9fb5-5f43c8b6238c.PNG)
 
 Jenkins running on the port number 8080, initially enter the jenkins using the initial admin password provided by jenkins at the location /root/.jenkins/secrets/initialAdminPassword. With jenkins properly functioning install the GITHUB plugin adn the build pipeline plugin.
+#INSTALLED_JENKINS_PLUGIN_SCREENSHOOT
+![9 1](https://user-images.githubusercontent.com/64473684/85106568-0c1fc280-b22a-11ea-83b9-9807e896f0c3.PNG)
+![9 2](https://user-images.githubusercontent.com/64473684/85106584-117d0d00-b22a-11ea-8046-33307f858371.PNG)
+![9 3](https://user-images.githubusercontent.com/64473684/85106600-180b8480-b22a-11ea-8e52-98bead54e2b4.PNG)
+![9 4](https://user-images.githubusercontent.com/64473684/85106623-20fc5600-b22a-11ea-8cbe-f608c373f51b.PNG)
+![9 5](https://user-images.githubusercontent.com/64473684/85106636-28bbfa80-b22a-11ea-83d1-f032e9bb7256.PNG)
+![9 6](https://user-images.githubusercontent.com/64473684/85106659-2fe30880-b22a-11ea-9c4e-2738dccc213c.PNG)
+![9 7](https://user-images.githubusercontent.com/64473684/85106677-36718000-b22a-11ea-890c-c5a11c5a9023.PNG)
+
+
